@@ -1,0 +1,27 @@
+---
+import EduCard from "../custom/EduCard.astro";
+import PageTitle from "../custom/PageTitle.astro";
+---
+
+<section id="experience" class="experience-container">
+  <PageTitle title="Work Experience" />
+  <EduCard
+    imgSrc="https://sagarbaba.github.io/assets/engineer.png"
+    alt="engineer"
+    title="Assistant Professor"
+    subtitle="RPS Group of Institute"
+    smallTxt="Taught DBMS and DSA"
+    lightTxt="March 2023 - July 2023"
+  />
+</section>
+
+<style>
+  .experience-container {
+    margin-top: 7rem;
+  }
+  @media (min-width: 48em) {
+    .experience-container {
+      margin-top: 8%;
+    }
+  }
+</style>

@@ -1,0 +1,36 @@
+---
+import PageTitle from "../custom/PageTitle.astro";
+import EduCard from "../custom/EduCard.astro";
+---
+
+<section id="education" class="education-container">
+  <PageTitle title="Education" />
+  <EduCard
+    lightTxt="2016 - 2020"
+    imgSrc="https://sagarbaba.github.io/assets/graduate.png"
+    alt="graduate"
+    title="University Institue of Engnineering and Technology, Kurukshetra"
+    subtitle="Bachelors of Technology, Computer Science and Engineering"
+    smallTxt=""
+  />
+  <EduCard
+    lightTxt="2021 - 2023"
+    imgSrc="https://sagarbaba.github.io/assets/student.png"
+    alt="HSC"
+    title="University Institue of Engnineering and Technology, Kurukshetra"
+    subtitle="Masters of Technology, Computer Science and Engineering"
+    smallTxt=""
+  />
+</section>
+
+<style>
+  .education-container {
+    margin-top: 6rem;
+  }
+
+  @media (min-width: 48em) {
+    .education-container {
+      margin-top: 6%;
+    }
+  }
+</style>
